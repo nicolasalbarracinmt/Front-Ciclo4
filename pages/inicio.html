@@ -1,11 +1,162 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entrada</title>
+    <title>El Cacharrero</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- Css-->
+    <link href="../css/styles.css" rel="stylesheet">
 </head>
+
 <body>
-    <h2>Pagina cargada exitosamente</h2>
+    <div class="navbar navbar-expand-lg bg-personal">
+        <a class="navbar-brand ml-2" href="index.html">
+            <img src="../img/logo.jpg" class="w-25" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-3">
+                <li class="nav-item ">
+                    <a class="mylink nav-link mx-2 active" href="inicio.html">Inicio <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link mx-2" href="#Nosotros">Nosotros<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link mx-2" href="index.html">Login<span class="sr-only">(current)</span></a>
+                </li>
+                <!--      <li class="d-inline px-4">
+                    <a href="" class="text-decoration-none" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Login
+                    </a>
+        </li> -->
+
+        </div>
+    </div>
+    <div id="carouselExampleControls" class="imgcarrosuel carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="w-100" src="../img/PC-ELECTRON-PRO.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="../img/PC-GAMER-LEJENDARIO-BLACK.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block w-100" src="../img/portatil3.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block w-100" src="../img/Procesador2.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="../img/memoria.png" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block w-100" src="../img/memoria3.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="Nosotros">
+        <div class="container my-5 rounded">
+            <h2 class="pt-4 d-flex justify-content-center align-content-center">Nosotros</h2>
+            <div class="row p-5 d-flex justify-content-center align-content-center">
+
+
+
+
+                <!-- <img src="images/Liz.png" class="w-100 img img-fluid" alt="Responsive image"> -->
+
+
+
+
+                <!--  <div class="col-4 p-5">
+                    <img src="images/LAU.png" class="w-100 img img-fluid" alt="Responsive image">
+                    <h2 class="pt-4 d-flex justify-content-center align-content-center">Laura Amado</h2>
+                </div>
+                <div class="col-4 p-5">
+                    <img src="images/majo.png" class="w-100 img img-fluid" alt="Responsive image">
+                    <h2 class="pt-3 d-flex justify-content-center align-content-center">Maria José Linares</h2>
+                </div>
+                <div class="col-2">
+                </div>
+                <div class="col-4 p-5">
+                    <img src="images/Narly.png" class="w-100 img img-fluid" alt="Responsive image">
+                    <h2 class="pt-3 d-flex justify-content-center align-content-center">Narly Sánchez</h2>
+                </div>
+                <div class="col-4 p-5">
+                    <img src="images/Nancy.png" class="w-100 img img-fluid" alt="Responsive image">
+                    <h2 class="pt-3 d-flex justify-content-center align-content-center">Nancy Merchán </h2>
+                </div> -->
+                <div class="col-2">
+                </div>
+                <div class="col-12">
+                    <!--  <br>Nosotros -->
+                    <p class="parrafo">
+
+                        El Cacharrero es una empresa paisa con más de 5 años de trayectoria en la venta de equipos
+                        clon o personalizados mediante el servicio de venta directa por catálogo, se ubica en la
+                        comuna 15 guayabal barrio La Colina, y actualmente cuenta con más de 150 empleados entre
+                        directos y fuerza de ventas independiente
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script>
+        let firstData = null;
+        //console.log(localStorage.getItem("object_name"))
+        //if para verificar que si se inicio sesion
+        if (localStorage.getItem("object_name") != null) {
+            let myData = localStorage.getItem("object_name");
+            //localStorage.removeItem( 'object_name' ); // Clear the localStorage
+            firstData = JSON.parse(myData);
+        } else {
+            cerrar()
+        }
+
+        function cerrar() {
+            $(document).ready(function () {
+                localStorage.removeItem('object_name');
+                $(location).attr('href', "index.html");
+            });
+        }
+    </script>
 </body>
+
 </html>

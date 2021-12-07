@@ -1,0 +1,29 @@
+h5 {
+    font-family: inherit;
+}
+
+.card,
+.table {
+    background-color: #F2F2F2!important;
+}
+
+#titulos-tabla {
+    background-color: #023859!important;
+}
+
+.card-header,
+.card-footer {
+    background-color: #023859!important;
+}
+
+.card-title {
+    font-family: inherit;
+    color: #06457e;
+    font-size: 2.5vh;
+}
+
+.links,
+.titlestable {
+    font-family: inherit;
+    color: #F2F2F2;
+}

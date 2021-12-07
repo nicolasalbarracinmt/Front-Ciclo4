@@ -1,0 +1,35 @@
+h2 {
+    text-align: center;
+    color: #03318C;
+    font-family: inherit !important;
+}
+
+body {
+    background-color: #023859!important;
+}
+
+.bg-personal {
+    background-color: black;
+}
+
+.nav-link {
+    color: #F2F2F2;
+    font-family: inherit !important;
+}
+
+#nosotros {
+    background-color: black!important;
+}
+
+.container {
+    background-color: #F2F2F2;
+}
+
+.parrafo {
+    font-family: inherit !important;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.rounded-circle{
+    width: 10%;
+}
